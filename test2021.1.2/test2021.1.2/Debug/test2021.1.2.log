@@ -1,0 +1,4 @@
+﻿  test.c
+D:\GitHub--code\c--test\test2021.1.2\test2021.1.2\test.c(30,14): warning C4013: “rand”未定义；假设外部返回 int
+D:\GitHub--code\c--test\test2021.1.2\test2021.1.2\test.c(51,7): warning C4013: “srand”未定义；假设外部返回 int
+  test2021.1.2.vcxproj -> D:\GitHub--code\c--test\test2021.1.2\Debug\test2021.1.2.exe
