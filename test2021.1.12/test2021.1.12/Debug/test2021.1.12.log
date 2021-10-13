@@ -1,0 +1,7 @@
+﻿  test.c
+D:\GitHub--code\c--test\test2021.1.12\test2021.1.12\test.c(31,7): warning C4013: “srand”未定义；假设外部返回 int
+D:\GitHub--code\c--test\test2021.1.12\test2021.1.12\test.c(31,22): warning C4013: “time”未定义；假设外部返回 int
+D:\GitHub--code\c--test\test2021.1.12\test2021.1.12\test.c(41,18): warning C4013: “rand”未定义；假设外部返回 int
+D:\GitHub--code\c--test\test2021.1.12\test2021.1.12\test.c(43,11): warning C4013: “HSB”未定义；假设外部返回 int
+D:\GitHub--code\c--test\test2021.1.12\test2021.1.12\test.c(56): warning C4715: “HSB”: 不是所有的控件路径都返回值
+  test2021.1.12.vcxproj -> D:\GitHub--code\c--test\test2021.1.12\Debug\test2021.1.12.exe
