@@ -1,0 +1,34 @@
+ADT List{
+	数据对象
+	数据关系
+	基本操作：
+		InitLIstanbul(&L);	DeatoryList(&L);
+		ListInsert(&l,i,e);	ListDelete(&L,i,&e);
+}ADT List
+
+InitList(&L)  (initialization List)
+	操作结果：构造一个空的线性表
+DeatoryList(&L);
+	线性表已存在，销毁线性表
+ClearList(&L)
+	线性表已存在，将线性表重置为空表
+ListEmpty(L)
+	判断线性表是否为空表
+	空表返回TURE,否则返回FALSE
+ListLenth(L)
+	返回线性表的数据元素个数
+GetElem(L,i,&e)
+	将线性表中第i个元素赋值给e
+LocateElem(L,e,compare())
+	compare()是数据元素判定函数
+	返回L中第一个与e满足compare()的数据元素的位序不存在返回0
+PriorElem(L,cur_e,&pre_e)
+	若cur_e是L的数据元素且不是第一个，则用pre_e返回它的前驱，否则操作失败，pre_e无意义
+NextElem(L,cur_e,&next_e)
+	获得后继元素
+ListInsert(&L,i,e)
+	在L的第i个位置之前插入数据元素e，L的长度+1
+ListDelete(&L,i,&e)
+	删除L的第i个元素，用e返回其值，L长度-1
+ListTraverse(&L,visited())
+	依次对线性表中每个元素调用visited()
