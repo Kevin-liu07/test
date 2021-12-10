@@ -1,3 +1,4 @@
+#define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
 #include<stdlib.h>
 typedef struct datafreq {
@@ -9,7 +10,7 @@ typedef struct linklist {
 	struct linklist* next;
 	struct linklist* pred;
 }Lnode;
-int main()
+int main3()
 {
 	int n, i, j, k;
 	scanf("%d", &n);
