@@ -19,35 +19,25 @@ BiTNode* CreateTree() {
 		return T;
 	}
 }
-void InorderTraverse(BiTNode* T) {
+void InorderTraverse(BiTNode* T, int deep) {
 	if (!T) {
 		return;
 	}
-	InorderTraverse(T->lchild);
-	printf("%c", T->data);
-	InorderTraverse(T->rchild);
+	else if(T->lchild ==NULL&&T->rchild==NULL){
+		printf("%c", T->data);
+	}
+	else{
+		if (deep > 1)printf("(");
+		InorderTraverse(T->lchild, deep + 1);
+		printf("%c", T->data);
+		InorderTraverse(T->rchild, deep + 1);
+		if (deep > 1)printf(")");
+	}
 }
-int main00() {
+int main000000() {
 	BiTree T;
 	T=CreateTree();
-	T->lchild->lchild->lchild->data = '(';
-	T->lchild->lchild->lchild->lchild = NULL;
-	T->lchild->lchild->lchild->rchild = NULL;
-	T->lchild->rchild->rchild->data = ')';
-	T->lchild->rchild->rchild->rchild = NULL;
-	T->lchild->rchild->rchild->lchild = NULL;
-	T->rchild->lchild->lchild->data = '(';
-	T->rchild->lchild->lchild->lchild = NULL;
-	T->rchild->lchild->lchild->rchild = NULL;
-	T->rchild->rchild->lchild->data = '(';
-	T->rchild->rchild->lchild->lchild = NULL;
-	T->rchild->rchild->lchild->rchild = NULL;
-	T->rchild->rchild->rchild->rchild->data = ')';
-	T->rchild->rchild->rchild->rchild->lchild = NULL;
-	T->rchild->rchild->rchild->rchild->rchild->data = ')';
-	T->rchild->rchild->rchild->rchild->rchild->lchild = NULL;
-	T->rchild->rchild->rchild->rchild->rchild->rchild = NULL;
-	InorderTraverse(T);
+	InorderTraverse(T,1);
 
 	return 0;
 }

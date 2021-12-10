@@ -63,7 +63,7 @@ void printcstree(cst* T) {
 	printcstree(T->bro);
 }
 
-int main()
+int main00()
 {
 	int n,i;
 	scanf("%d", &n);
