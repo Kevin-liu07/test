@@ -30,7 +30,7 @@ void read(int* x, char ch)
 int main5656()
 {
 	int  n;
-	scanf("%d", &n);
+	scanf_s("%d", &n);
 	getchar();
 	int i;
 	Dstack d;
@@ -55,7 +55,7 @@ int main5656()
 	}
 
 	int s, data;
-	while (~scanf("%d %d", &s, &data)) {
+	while (~scanf_s("%d %d", &s, &data)) {
 		if (s == 0) {
 			d.data[d.top1++] = data;
 		}
