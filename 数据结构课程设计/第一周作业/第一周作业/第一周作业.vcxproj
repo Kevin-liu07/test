@@ -26,6 +26,7 @@
     <ClCompile Include="wd-p20-11.c" />
     <ClCompile Include="wd-P21-13.c" />
     <ClCompile Include="wd-P233-4.c" />
+    <ClCompile Include="wd-p233-4.cpp" />
     <ClCompile Include="wd-P233-5.c" />
     <ClCompile Include="wd-P42-20.c" />
     <ClCompile Include="wd-P44-25.c" />

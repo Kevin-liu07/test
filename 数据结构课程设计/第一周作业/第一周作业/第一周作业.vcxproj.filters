@@ -48,5 +48,8 @@
     <ClCompile Include="wd-P233-5.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="wd-p233-4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
