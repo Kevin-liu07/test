@@ -1,2 +1,4 @@
 ﻿  wd-P233-5.c
+D:\GitHub--code\c--test\数据结构课程设计\第一周作业\第一周作业\wd-P233-5.c(100): warning C4716: “main622”: 必须返回一个值
+Debug\wd-p233-4.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
   第一周作业.vcxproj -> D:\GitHub--code\c--test\数据结构课程设计\第一周作业\Debug\第一周作业.exe

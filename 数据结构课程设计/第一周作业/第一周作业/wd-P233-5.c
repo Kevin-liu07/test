@@ -88,7 +88,7 @@ void creategraph1(ALgraph* G) {
 		}
 	}
 }
-int main()
+int main622()
 {
 	ALgraph* G = (ALgraph*)malloc(sizeof(ALgraph));
 	creategraph1(G);

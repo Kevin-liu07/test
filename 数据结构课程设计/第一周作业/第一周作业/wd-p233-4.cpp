@@ -100,6 +100,7 @@ int creategraph1(ALgraph* G) {
             G->vertices[8].firstarc = NULL;
         }
     }
+    return 1;
 }
 
 int main986() {
@@ -107,8 +108,9 @@ int main986() {
     creategraph1(G);
     int v1, v2;
     int v[9] = { 0 };
-    scanf("%d %d", &v1, &v2);
+    scanf_s("%d %d", &v1, &v2);
     DFS(G, G->vertices[v1].firstarc, v2 + 1);
     if (s == 1)printf("T");
     else printf("F");
+    return 0;
 }
